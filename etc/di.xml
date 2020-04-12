@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Created by wilson.sun330@gmail.com
+ * Date: 11/09/2015
+* Time: 5:02 PM
+*/
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+	<preference for="Magento\Sales\Controller\Adminhtml\Order\Create\Save" type="TcsCourier\Shipping\Controller\Sales\Adminhtml\Order\Create\Save" />
+
+	<!-- Created by saifali.rehman20@gmail.com -->
+
+	<preference for="TcsCourier\Shipping\Api\BluexRepositoryInterface" type="TcsCourier\Shipping\Model\BluexRepository"/>
+
+	<preference for="TcsCourier\Shipping\Api\Data\BluexDataInterface" type="TcsCourier\Shipping\Model\Data\BluexData"/>
+
+</config>
+

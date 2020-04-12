@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="TcsCourier_Shipping::shipping" title="Tcs Courier" module="TcsCourier_Shipping" sortOrder="11" resource="TcsCourier_Shipping::shipping" />
+	   	<add id="TcsCourier_Shipping::settings" title="Settings" sortOrder="30" action="adminhtml/system_config/edit/section/TcsCourier_shipping" module="TcsCourier_Shipping" parent="TcsCourier_Shipping::shipping" resource="TcsCourier_Shipping::settings" />
+	</menu>
+</config>
